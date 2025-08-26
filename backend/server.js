@@ -7,7 +7,7 @@ import mongoose from 'mongoose';
 import projectModel from './models/project.model.js';
 import {generateResult} from './services/ai.service.js';
 
-const port = https://ai-developer-frontend.onrender.com;
+const port = process.env.PORT || 3000;;
 
 // Create an HTTP server
 const server = http.createServer(app);
